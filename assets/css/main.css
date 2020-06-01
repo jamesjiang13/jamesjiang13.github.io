@@ -374,7 +374,7 @@ input, select, textarea {
 		}
 
 		.row > .col-6 {
-			width: 50%;
+			width: 70%;
 		}
 
 		.row > .off-6 {
@@ -2919,7 +2919,7 @@ input, select, textarea {
 		background-attachment: fixed,							fixed,							fixed;
 		/* background-image: url("images/overlay2.png"), url("images/overlay3.svg"), linear-gradient(45deg, #9dc66b 5%, #4fa49a 30%, #4361c2); */
 		/* background-position: top left,						center center,					center center; */
-		background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../images/desk.jpg');
+		background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../images/wood-desk.jpg');
 		background-size: cover;
 		/* background-size: auto,							cover,							cover; */
 		overflow: hidden;
