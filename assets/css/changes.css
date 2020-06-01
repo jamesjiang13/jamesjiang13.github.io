@@ -3,3 +3,42 @@
   /* height: 250px; */
   border-radius: 50%;
 }
+
+#about {
+  padding: 3em 0;
+}
+
+.about-me {
+  display: flex;
+  justify-content: center;
+}
+
+.about-me-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-me-div > p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.major-icons div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.major-icons span {
+  font-size: 1.1em;
+  padding-top: 10px;
+}
+
+header.major {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
