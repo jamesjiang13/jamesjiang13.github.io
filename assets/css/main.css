@@ -134,7 +134,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #555;
+		color: #ffffff;
 		line-height: 1em;
 		margin: 0 0 1em 0;
 	}
@@ -2048,7 +2048,7 @@ input, select, textarea {
 	}
 
 	header.major {
-		margin: 0 0 1em 0;
+		margin: 0 0 2em 0;
 	}
 
 		header.major:after {
@@ -2843,7 +2843,7 @@ input, select, textarea {
 			background-color: #333;
 			color: rgba(255, 255, 255, 0.75);
 			background-attachment: fixed,							fixed;
-			background-image: url("images/overlay1.png"), url("../../images/header.jpg");
+			/* background-image: url("images/overlay1.png"), url("../../images/header.jpg"); */
 			background-size: auto,							cover;
 		}
 
@@ -2996,7 +2996,7 @@ input, select, textarea {
 			#header .button.primary {
 				background-color: #ffffff;
 				box-shadow: inset 0 0 0 1px #ffffff !important;
-				color: #4686a0 !important;
+				color: #404951 !important;
 			}
 
 				#header input[type="submit"].primary:hover,
@@ -3129,13 +3129,19 @@ input, select, textarea {
 
 	#footer {
 		padding: 4em 0;
-		background-color: #4686a0;
-		color: rgba(255, 255, 255, 0.75);
-		background-attachment: fixed,							fixed,							fixed;
-		background-image: url("images/overlay2.png"), url("images/overlay4.svg"), linear-gradient(45deg, #4361c2, #4fa49a 50%, #9dc66b 95%);
-		background-position: top left,						center center,					center center;
-		background-size: auto,							cover,							cover;
+		/* background-color: #4686a0; */
+		/* color: rgba(255, 255, 255, 0.75); */
+		/* background-attachment: fixed,							fixed,							fixed; */
+		/* background-image: url("images/overlay2.png"), url("images/overlay4.svg"), linear-gradient(45deg, #4361c2, #4fa49a 50%, #9dc66b 95%); */
+		/* background-position: top left,						center center,					center center; */
+		/* background-size: auto,							cover,							cover; */
 		text-align: center;
+
+		background-color: #333;
+		color: rgba(255, 255, 255, 0.75);
+		background-attachment: fixed,							fixed;
+		background-image: url("images/overlay1.png"), url("../../images/wood-desk.jpg");
+		background-size: auto,							cover;
 	}
 
 		#footer a {
