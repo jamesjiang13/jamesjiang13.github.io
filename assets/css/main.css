@@ -240,7 +240,6 @@ input, select, textarea {
 	}
 
 /* Container */
-
 	.container {
 		margin: 0 auto;
 		max-width: calc(100% - 4em);
@@ -498,23 +497,9 @@ input, select, textarea {
 				}
 
 		.row.gtr-150 {
-			/* margin-top: 0; */
-			/* margin-left: -3em; */
 			display: inline-flex;
 			justify-content: center;
 		}
-
-			/* .row.gtr-150 > * {
-				padding: 0 0 0 3em;
-			}
-
-			.row.gtr-150.gtr-uniform {
-				margin-top: -3em;
-			} */
-
-				/* .row.gtr-150.gtr-uniform > * {
-					padding-top: 3em;
-				} */
 
 		.row.gtr-200 {
 			margin-top: 0;
@@ -990,15 +975,9 @@ input, select, textarea {
 						}
 
 				.row.gtr-150 {
-					/* margin-top: 0;
-					margin-left: -3em; */
 					display: inline-flex;
 					justify-content: center;
 				}
-
-					/* .row.gtr-150 > * {
-						padding: 0 0 0 3em; */
-					}
 
 					.row.gtr-150.gtr-uniform {
 						margin-top: -3em;
@@ -1028,7 +1007,15 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 980px) {
-
+			.line-break {
+				content: '';
+				display: inline-block;
+				height: 1px;
+				margin-bottom: 2.5em;
+				width: 80%;
+				background-color: white;
+			}
+			
 			.row {
 				display: flex;
 				flex-wrap: wrap;
@@ -1275,6 +1262,15 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 736px) {
+
+			.line-break {
+				content: '';
+				display: inline-block;
+				height: 1px;
+				margin-bottom: 2.5em;
+				width: 80%;
+				background-color: white;
+			}
 
 			.row {
 				display: flex;

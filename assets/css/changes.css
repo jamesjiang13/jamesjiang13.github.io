@@ -1,3 +1,4 @@
+/* header section */
 .main-photo {
   width: 300px;
   border-radius: 50%;
@@ -5,6 +6,18 @@
 
 #about {
   padding: 3em 0;
+}
+
+header.major {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* about me section */
+#about {
+  background-color: #415562;
+  color: white;
 }
 
 .about-me {
@@ -25,6 +38,49 @@
     text-align: center;
 }
 
+/* projects section */
+#projects {
+  background-color: #404951;
+  color: white;
+}
+
+#projects button,
+#projects .button {
+  box-shadow: inset 0 0 0 1px #ffffff;
+  color: #ffffff !important;
+}
+
+#projects button:hover,
+#projects .button:hover {
+  background-color: rgba(255, 255, 255, 0.125);
+}
+#projects button:active,
+#projects .button:active {
+  background-color: rgba(255, 255, 255, 0.25);
+}
+#projects button.primary,
+#projects .button.primary {
+  background-color: #ffffff;
+  box-shadow: inset 0 0 0 1px #ffffff !important;
+  color: #404951 !important;
+}
+
+#projects button.primary:hover,
+#projects .button.primary:hover {
+  background-color: rgba(255, 255, 255, 0.125) !important;
+  color: #ffffff !important;
+}
+#projects button.primary:active,
+#projects .button.primary:active {
+  background-color: rgba(255, 255, 255, 0.25) !important;
+}
+
+/* skill section */
+#skills {
+  background-color: #415562;
+  color: white;
+}
+
 .major-icons div {
   display: flex;
   flex-wrap: wrap;
@@ -42,62 +98,4 @@
 
 .major-icons img:hover {
   transform:scale(1.2);
-}
-
-header.major {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-#about {
-  background-color: #415562;
-  color: white;
-}
-
-#projects {
-  background-color: #404951;
-  color: white;
-}
-
-#skills {
-  background-color: #415562;
-  color: white;
-}
-
-#projects input[type="button"],
-#projects button,
-#projects .button {
-  box-shadow: inset 0 0 0 1px #ffffff;
-  color: #ffffff !important;
-}
-
-#projects input[type="button"]:hover,
-#projects button:hover,
-#projects .button:hover {
-  background-color: rgba(255, 255, 255, 0.125);
-}
-#projects input[type="button"]:active,
-#projects button:active,
-#projects .button:active {
-  background-color: rgba(255, 255, 255, 0.25);
-}
-#projects input[type="button"].primary,
-#projects button.primary,
-#projects .button.primary {
-  background-color: #ffffff;
-  box-shadow: inset 0 0 0 1px #ffffff !important;
-  color: #404951 !important;
-}
-
-#projects input[type="button"].primary:hover,
-#projects button.primary:hover,
-#projects .button.primary:hover {
-  background-color: rgba(255, 255, 255, 0.125) !important;
-  color: #ffffff !important;
-}
-#projects input[type="button"].primary:active,
-#projects button.primary:active,
-#projects .button.primary:active {
-  background-color: rgba(255, 255, 255, 0.25) !important;
 }
