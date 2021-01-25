@@ -1,6 +1,5 @@
 .main-photo {
   width: 300px;
-  /* height: 250px; */
   border-radius: 50%;
 }
 
@@ -28,13 +27,21 @@
 
 .major-icons div {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   justify-content: center;
 }
 
 .major-icons span {
   font-size: 1.1em;
   padding-top: 10px;
+}
+
+.major-icons img {
+  transition: transform .2s;
+}
+
+.major-icons img:hover {
+  transform:scale(1.2);
 }
 
 header.major {

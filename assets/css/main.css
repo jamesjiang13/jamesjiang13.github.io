@@ -1279,6 +1279,7 @@ input, select, textarea {
 			.row {
 				display: flex;
 				flex-wrap: wrap;
+				flex-direction: column;
 				box-sizing: border-box;
 				align-items: stretch;
 			}
@@ -1488,6 +1489,7 @@ input, select, textarea {
 					margin-left: -3em; */
 					display: inline-flex;
 					justify-content: center;
+					align-items: center;
 				}
 
 					/* .row.gtr-150 > * {
@@ -2606,6 +2608,8 @@ input, select, textarea {
 			display: inline-block;
 			padding: 1.5em;
 			text-align: center;
+			display: flex;
+			flex-direction: column;
 		}
 
 			ul.major-icons li .icon {
